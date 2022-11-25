@@ -19,7 +19,7 @@ const HomePage = () => {
                         <section className={cls.sign}>
                             <strong>Start conversation easily</strong>
                             <div id={cls.sign_login}>
-                                <NavLink to="/Home">
+                                <NavLink to="/SignIn">
                                     <div className={cls.try}>
                                         Try
                                     </div>

@@ -1,0 +1,32 @@
+main {
+    height: calc(100vh - 92px);
+    width: 100vh;
+}
+
+.area {
+    width: 600px;
+    height: 500px;
+
+    background-color: #DFEFFF;
+
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 100px;
+
+    border-radius: 30px;;
+
+    text-align: center;
+}
+
+form {
+    margin-top:100px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+
+    margin-top:10px;
+    margin-bottom:10px;
+}
