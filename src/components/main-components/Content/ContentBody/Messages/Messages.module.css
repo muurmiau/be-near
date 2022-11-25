@@ -1,0 +1,71 @@
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+
+.users {
+    height: 100%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #AAD2FA;
+}
+
+.item {
+    height: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #AAD2FA;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.dialog {
+    height: 100%;
+}
+
+.dialog .contact {
+    text-align: center;
+    font-size: 22px;
+}
+
+.dialog .header {
+    padding-top: 15px;
+    max-height: 45px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #AAD2FA;
+    text-align: center;
+}
+
+.dialog .footer {
+    position: relative;
+    top: calc(100% - 62px - 40px);
+    height: 24px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #AAD2FA;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 28px;
+    text-align: center;
+}
+
+.chat {
+    position: relative;
+    top: 0px;
+    width: 70%;
+    height: 22px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #AAD2FA;
+    border-width: 1px;
+    padding-left: 16px;
+    text-align: left;
+}

@@ -1,0 +1,6 @@
+.content_width {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}

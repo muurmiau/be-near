@@ -1,0 +1,14 @@
+.wrapper {
+    padding-top: 15.5px;
+    padding-bottom: 16px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #979797;
+  }
+  
+.content {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 20px;
+}
