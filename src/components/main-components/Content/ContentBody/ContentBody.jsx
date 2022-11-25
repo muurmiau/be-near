@@ -6,6 +6,7 @@ import Messages from './Messages/Messages'
 import Friends from './Friends/Friends'
 import Profile from './Profile/Profile'
 import Locator from './Locator/Locator'
+
 const ContentBody = () => {
     return (
       <div id="content" className={content.block}>

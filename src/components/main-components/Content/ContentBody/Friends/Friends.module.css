@@ -1,0 +1,24 @@
+.wrapper {
+    width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-right-color: #AAD2FA;
+    border-bottom-color: #AAD2FA;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.friendAvatar {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 40px;
+}

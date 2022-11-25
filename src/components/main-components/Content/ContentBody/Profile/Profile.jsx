@@ -6,4 +6,16 @@ const Profile = () => {
     )
 }
 
+const Header = () => {
+    return (
+        <div></div>
+    )
+}
+
+const Content = () => {
+    return (
+        <div></div>
+    )
+}
+
 export default Profile;
