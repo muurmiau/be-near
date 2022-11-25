@@ -36,7 +36,7 @@ const Dialog = (props) => {
                 </div>
             </div>
             <div className={`${cls.dialog} ${cls.footer}`}>
-                <Chat message={"Wassup " + props.friend_name}/>
+                <Chat message={"Send message to " + props.friend_name}/>
             </div>
 
         </div>

@@ -67,5 +67,6 @@ a {
     border-color: #AAD2FA;
     border-width: 1px;
     padding-left: 16px;
-    text-align: left;
+    text-align: center;
+    color: #979797;
 }
