@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './../Header/Header'
 import Content from './../Content/Content'
-import {BrowserRouter} from 'react-router-dom'
+import HomePage from './../HomePage/HomePage'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 
 const App = () => {
@@ -10,7 +11,11 @@ const App = () => {
     <BrowserRouter>
       <div className="main">
         <Header />
-        <Content />
+      <Routes>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/Home/*" element={<Content />}/>
+      </Routes>
+        
       </div>
     </BrowserRouter>
   )

@@ -10,22 +10,22 @@ const SideBar = () => {
       <nav id="sidebar" className={content.block}>
         
           <div className={cls.head}>
-          <NavLink to="/profile">
+          <NavLink to="/Home/profile">
             <img src={user_path} alt="user"></img>
           </NavLink>
-          <NavLink to="/profile">
+          <NavLink to="/Home/profile">
             <div className={cls.name}>Name</div>
           </NavLink>
           </div>
         <div className={cls.items_wrapper}>
             <div className={cls.item}>
-              <NavLink to="/friends"><div>Friends</div></NavLink>
+              <NavLink to="/Home/friends"><div>Friends</div></NavLink>
             </div>
             <div className={cls.item}>
-              <NavLink to="/messages"><div>Messages</div></NavLink>
+              <NavLink to="/Home/messages"><div>Messages</div></NavLink>
             </div>
             <div className={cls.item}>
-              <NavLink to="/locator"><div>Locator</div></NavLink>
+              <NavLink to="/Home/locator"><div>Locator</div></NavLink>
             </div>
         </div>
       </nav>

@@ -19,7 +19,7 @@ const Messages = (props) => {
 
 const User = (props) => {
     return (
-        <NavLink to={"/messages/" + props.friend_id}>
+        <NavLink to={"/Home/messages/" + props.friend_id}>
             <div className={`${cls.item}`}>
             {props.friend_name}
         </div>
