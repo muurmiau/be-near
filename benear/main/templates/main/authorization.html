@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    Авторизация
+{% endblock %}
+
+{% block content %}
+    <h1>Форма авторизации (сюда будет прикручена красивая форма из реакта)</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.username }}<br>
+        {{ form.password }}<br>
+        <span>{{ error }}</span><br>
+        <button type="submit">Authorize</button>
+    </form>
+{% endblock %}
