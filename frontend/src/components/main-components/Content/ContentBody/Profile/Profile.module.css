@@ -1,0 +1,43 @@
+.profileWrapper {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #AAD2FA;
+    background-color: #AAD2FA;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.user {
+    position: relative;
+    left: 485px;
+    height: 100px;
+    width: 80px;
+    text-align: center;
+}
+
+.user_img {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.photo {
+    max-height: 200px;
+    width: 347px;
+}

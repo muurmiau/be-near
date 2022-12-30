@@ -1,0 +1,12 @@
+<svg width="64" height="60" viewBox="0 0 64 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="32" cy="30" r="30" fill="#D2EFFF"/>
+<ellipse rx="5.44681" ry="5.64413" transform="matrix(-1 0 0 1 56.5107 20.2435)" fill="#0500EE"/>
+<rect width="14.9787" height="25.3986" rx="6" transform="matrix(-1 0 0 1 64 27.2988)" fill="#0500EE"/>
+<rect width="5.44681" height="16.9324" rx="2.7234" transform="matrix(-1 0 0 1 47.6595 29.4153)" fill="#0500EE"/>
+<ellipse cx="7.48929" cy="20.2435" rx="5.44681" ry="5.64413" fill="#0500EE"/>
+<rect y="27.2988" width="14.9787" height="25.3986" rx="6" fill="#0500EE"/>
+<rect x="16.3405" y="29.4153" width="5.44681" height="16.9324" rx="2.7234" fill="#0500EE"/>
+<path d="M23.5 10.5399V10.5399C28.8907 8.88475 34.654 8.88475 40.0447 10.5399V10.5399" stroke="#0500EE" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M25.951 13.7147V13.7147C29.7332 12.4771 33.8114 12.4771 37.5936 13.7147V13.7147" stroke="#0500EE" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M28.4022 17.5246V17.5246C30.5744 16.706 32.9703 16.706 35.1426 17.5246V17.5246" stroke="#0500EE" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
